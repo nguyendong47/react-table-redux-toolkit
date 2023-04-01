@@ -1,0 +1,61 @@
+*,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	overflow: hidden;
+}
+
+.selected-row {
+	background-color: whitesmoke !important;
+}
+
+.table {
+	display: block;
+	position: relative;
+	overflow: auto;
+	min-height: 50vh;
+	max-height: 80vh;
+}
+
+.fixedCheckbox {
+	position: sticky;
+	z-index: 1;
+	background-color: whitesmoke !important;
+	left: 0;
+	border: none;
+}
+
+.fixedAction {
+	position: sticky;
+	z-index: 1;
+	background-color: whitesmoke !important;
+	width: 80px;
+	left: 30px;
+	border: none;
+	text-align: center;
+}
+
+.fixedColumn {
+	position: sticky;
+	z-index: 1;
+	background-color: whitesmoke !important;
+	border: none;
+}
+
+thead > tr > th:not(:first-child),
+tbody > tr > td:not(:first-child) {
+	min-width: 100px;
+}
+
+thead > tr > th:first-child,
+tbody > tr > td:first-child {
+	min-width: 30px;
+}
+
+i {
+	padding: 10px;
+}

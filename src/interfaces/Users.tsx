@@ -1,0 +1,32 @@
+export interface User {
+	firstName: string;
+	lastName: string;
+	age: 87;
+	email: string;
+	phoneNumber: number;
+	address: string;
+	city: string;
+	state: string;
+	zipCode: string;
+	jobTitle: string;
+	company: string;
+	website: string;
+	username: string;
+	password: string;
+	creditCardNumber: string;
+	creditCardIssuer: string;
+	expirationDate: Date;
+	cvv: number;
+	bankAccountNumber: number;
+	routingNumber: number;
+	favoriteColor: string;
+	favoriteFood: string;
+	favoriteMovie: string;
+	favoriteBook: string;
+	favoriteSong: string;
+	favoriteSport: string;
+	favoriteAnimal: string;
+	favoriteQuote: string;
+	aboutMe: string;
+	hobbies: string;
+}
